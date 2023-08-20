@@ -6,3 +6,21 @@
 	font-family: 'PlayfairDisplay'; 
 	src: url('../fonts/PlayfairDisplay-VariableFont_wght.ttf'); 
 }
+
+.background-main{
+	background-color:#FFFD73;
+}
+.title-main{
+	font-family: 'PlayfairDisplay'; 
+	font-size:48px;
+}
+.description-main{
+	font-family: 'Montserrat'; 
+	font-size:24px;
+}
+.top-main{
+	padding-top: 55px;
+}
+.color-font{
+	color: #524242;
+}
