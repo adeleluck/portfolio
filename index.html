@@ -10,47 +10,132 @@
   <script src="library/bootstrap-5.3.1/js/bootstrap.js"></script>
   <link rel="stylesheet" href="styles/style.css">
   <link rel="stylesheet" href="library/bootstrap-5.3.1/css/bootstrap.css">
+  <link rel="stylesheet" href="library/icons-1.8.1/font/bootstrap-icons.css">
   <title>Мое портфолио</title>
-  <link rel="import" href="templates/header.html">
 </head>
 <body>
 	<div class="row mx-0 position-relative">
-		<div class="background_main row mx-0 px-0" style="height: 350px;">
-			<div class="col-6 top_main" style="padding-left: 150px;">
-				<div>
-					<span class="title_main color_font">
+		<div class="row mx-0 px-0" style="height: 315px;border: none;box-shadow: 0 0 10px black inset;">
+			<div class="area">
+				<ul class="circles">
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+				</ul>
+			</div >
+			<div class="col-7 position-absolute px-5">
+				<div class="animation_title">
+					<h1 class="title_main color_font">
 						Добро пожаловать на мою страницу!
-					</span>
+					</h1>
 				</div>
+				<div class="wrap">
+  <button class="button">Submit</button>
+</div>
+
+<div class="box-1">
+  <div class="btn btn-one">
+    <span>HOVER ME</span>
+  </div>
+</div>
 			</div>
-			<div class="col-6 position-absolute text-end" style="right:1%">
-			<img src="images/me.jpg" class="w-75 h-75" style="border-radius:50%;opacity: 0.9;">
-			</div>
+			<div class="col-5 position-absolute text-center animation_right" style="right:0%;top: 13%;">
+					<img src="images/me.jpg" class="position-relative"  style="border-radius:50%;width:60%;box-shadow: 0 -7px 6px rgba(0, 0, 0, 0.5); z-index:1000;">
+			</div>			
 		</div>
-		<div class="top_main col-6" style="padding-left: 150px;height: 150px;">
-			<div>
+			<div class="col-6 py-5 px-5 position-relative animation_left">
 				<span class="description_main color_font">
 						Меня зовут Адель, мне 24 года, я занимаюсь Fronted-разработкой.
 				</span>
 			</div>
-		</div>
-		<div  class="top_main" style="padding-left: 150px;height: 350px;">
-			<div class="col-6">
-				<div>
-					<span class="title_font color_font">
-						Немного о себе
-					</span>
+			<div class="back_wave px-0">
+			<div>
+				<div  class="row mx-0 parent px-0">
+					<div class="animation_left col-6 d-flex flex-column justify-content-center" style="box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);background:white;border-radius: 0 50% 50% 0;position: relative;">	
+						<div class="pb-4 px-5 col-12">
+							<span class="title_font color_font">
+								Немного о себе
+							</span>
+						</div>
+						<div class="px-5 col-12">
+								<span class="description_text_about_me color_font" style="line-height: 1.6;">
+									Я окончила высшее учебное заведение в МГТУ им Н.Э.Баумана кафедры ИУ-5. Работала в IT компании ООО "Роникс Системс". Имею успешный опыт работы с крупными правительственными и государственными проектами, банками, медицинскими учреждениями. Быстро адаптируюсь к задачам различной сложности, всеми силами нацелена на эффективный результат работы
+								</span>
+								<div class="pt-5">
+									<div id="#href_my_image">
+										<img id="#my_image" style="width:30%;cursor: pointer;border-radius: 14px;			-webkit-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+												-moz-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+												box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);" 
+												id="img" src="images/Ronix_blagodarnost.jpg" class=	"position-relative">
+									</div>
+									<button id="#close_img" type="button" class="btn-close d-none btn_close_image" aria-label="Закрыть"></button>
+								</div>
+						</div>
+					</div>
+					<div class="col-6 position-relative px-5 py-5">
+					<div class="col-12 animation_fade">
+						<h3 class="title_font color_font">Что я умею?</h3>
+						<hr class="hr_skill">
+							<ul class="px-0">	
+								<li class="description_text py-1">
+									Адаптивная / Кроссбраузерная верстка HTML / CSS / JavaScript
+								</li>
+								<li class="description_text py-1">
+									Работа с библиотекой Bootstrap
+								</li>
+								<li class="description_text py-1">
+									Работа с Adobe Photoshop
+								</li>
+								<li class="description_text py-1">
+									Создание и настройка модулей и компонентов 1C Bitrix
+								</li>
+								<li class="description_text py-1">
+									Работа с БД HCL Notes (Client, Designer), создание баз данных, умение работать с LotusScript
+								</li>
+								<li class="description_text py-1">
+									Оптимизация CSS
+								</li>
+							</ul>
+					</div>
+					<div class="col-12 text-end animation_fade">
+						<h3 class="title_font color_font">Мои Soft скиллы:</h3>
+						<hr class="hr_skill">
+							<ul class="px-0">	
+								<li class="description_text py-1">
+									Умение работать в команде
+								</li>
+								<li class="description_text py-1">
+									Энергия / Энтузиазм / Инициативность / Настойчивость
+								</li>
+								<li class="description_text py-1">
+									Системное мышление
+								</li>
+								<li class="description_text py-1">
+									Эмоциональный интеллект
+								</li>
+								<li class="description_text py-1">
+									Здоровое любопытство и широкий кругозор
+								</li>
+								<li class="description_text py-1">
+									Творческий подход
+								</li>
+							</ul>
 				</div>
-				<div>
-					<span class="description_main color_font">
-						Я окончила высшее учебное заведение в МГТУ им Н.Э.Баумана кафедры ИУ-5. Работала в IT компании ООО "Роникс Системс". блаблабла
-					</span>
+					</div>
+					<!--
+				<div class="col-6 text-center m-auto py-4" style="background: rgb(252 237 226);">
+					<img class="zoom_img_blagodarnost" style="width:30%;cursor: pointer;border-radius: 14px;" id="img" src="images/Ronix_blagodarnost.jpg">
 				</div>
-			</div>
-		</div>
-		
+				!-->
+			</div>		
 	</div>
-	
- <link rel="import" href="templates/footer.html">
+	</div>
 </body>
 </html>
