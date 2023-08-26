@@ -1,6 +1,6 @@
-Hihmg = document.getElementById('#href_my_image');
-img = document.getElementById('#my_image');
-close_image = document.getElementById('#close_img');
+Hihmg = document.getElementById('href_my_image');
+img = document.getElementById('my_image');
+close_image = document.getElementById('close_img');
 
 
 Hihmg.onclick = function() {
